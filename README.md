@@ -24,6 +24,7 @@ Taxe de base        = superficie × 2
 Taxe supplémentaire = (chambres × 50) + (jardin ? 100 : 0)
 Taxe totale         = taxe de base + taxe supplémentaire
 ```
+<img width="328" height="737" alt="image" src="https://github.com/user-attachments/assets/5b0f4b12-fa33-4c85-9c75-19137108cccd" />
 
 ### Exemple
 
