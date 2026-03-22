@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFF8F0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul des taxes immobilières"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#BF360C"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/edit_superficie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Superficie (m²)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edit_chambres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de chambres"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <CheckBox
+        android:id="@+id/check_jardin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jardin"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_estimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimer la taxe"
+        android:backgroundTint="#BF360C"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#4E342E"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
