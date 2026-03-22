@@ -39,6 +39,7 @@ Taxe de base        = 120 × 2       = 240 DH
 Taxe supplémentaire = (4×50) + 100  = 300 DH
 Taxe totale                          = 540 DH
 ````
+<img width="328" height="733" alt="image" src="https://github.com/user-attachments/assets/11b9afa7-5c8e-40e9-ac42-7cbc72d727cf" />
 
 ---
 
